@@ -1,0 +1,21 @@
+{
+  "name": "clone_chat",
+  "version": "1.0.0",
+  "description": "Chatting App",
+  "main": "index.js",
+  "homepage": "https://prashant-ak.github.io/Real-Time-Chat-App/.",
+  "scripts": {
+    "start": "nodemon server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Prashant Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.0.0",
+    "moment": "^2.26.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
