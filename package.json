@@ -12,7 +12,7 @@
   "author": "Prashant Singh",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.26.0",
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
